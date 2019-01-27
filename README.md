@@ -37,7 +37,9 @@ SUMUP: Wasted space: 0.959 MB
 
 
 **To find total duplicate files:**
+
 ```./finddups /etc/ /tmp/ | egrep "^DUPS:" | wc -l```
 
-**TO extract the bash commands for execution:**
+**To extract the bash commands for execution:**
+
 ```./finddups /etc/ /tmp/| egrep "^SH:" |  awk -F "SH:" '{print $2}'```
