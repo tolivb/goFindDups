@@ -1,10 +1,9 @@
 # goFindDups
 Simple tool to scan dirs for duplicate files by using MD5 sums.It will generate the result on STDOUT.
 
-The tool WILL NOT MOVE or DELETE anything, it will just output the duplicates and bash commands for convinience.
-
-Use absolute paths only!
-Files with size 0 are considered equal!
+1. The tool WILL NOT MOVE or DELETE anything, it will just output the duplicates and bash commands for convinience.
+2. Use absolute paths only!
+3. Files with size 0 are considered equal!
 
 ## How to use
 ``` 
